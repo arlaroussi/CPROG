@@ -38,3 +38,15 @@ void afficherTab(int tab[n], int n) {
            printf("\t\t%d\t", tab[i]);
     }
 } //Fin de la fonction
+
+void remplirMatPtr(int **tab, int n, int m) {
+
+    int i, j;
+
+    for (i=0; i<n ; i++) {
+        for (j=0; j<m; j++) {
+         	printf("\n\tEntrer element : ");
+            scanf("%d",&tab[i][j]);
+        }
+	}
+} //Fin de la fonction
