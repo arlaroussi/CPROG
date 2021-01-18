@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "fonctions_matrice_v0.h"
 
-#define LIGNE 2
-#define COLONNE  3
+#define LIGNE 5
+#define COLONNE  5
 
 void main (int argc, char * argv[]) {
 
